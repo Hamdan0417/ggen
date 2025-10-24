@@ -7,7 +7,10 @@
 #}
 {% extends "layouts.master" %}
 {% block content %}
-    {% component home %}
+    {% component 'home.enhanced-slider' %}
+    {% component 'home.featured-products' %}
+    {% component 'home.our-values' %}
+    {% component 'home.about-us' %}
 {% endblock %}
 {% block scripts %}
     <script defer src="{{ 'home.js' | asset }}"></script>

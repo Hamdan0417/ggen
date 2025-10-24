@@ -1,0 +1,56 @@
+<section class="s-block container py-16 bg-gray-50">
+    <div class="s-block__title text-center mb-12">
+        <h2 class="text-3xl font-bold">منتجاتنا المميزة</h2>
+        <p class="text-lg text-gray-600">حلول ذكية لمستقبل زراعي مستدام</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {# Product 1 #}
+        <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+            <div class="relative">
+                <img src="{{ "images/product1.jpg" | asset }}" alt="حلابة الجيل الأخضر الكهربائية" class="w-full h-64 object-cover">
+                <div class="absolute top-4 right-4 bg-primary text-white text-sm font-bold px-3 py-1 rounded-full">الأكثر مبيعاً</div>
+            </div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold mb-2">حلابة الجيل الأخضر الكهربائية</h3>
+                <p class="text-gray-600 mb-4">للأغنام والأبقار والإبل – سعة 12 لتر</p>
+                <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-center">
+                        <i class="sicon-check-circle text-primary mr-2"></i>
+                        <span>يوفر الوقت والجهد</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="sicon-check-circle text-primary mr-2"></i>
+                        <span>جودة عالية ومتانة</span>
+                    </li>
+                </ul>
+                <div class="mt-6 text-center">
+                    <a href="#" class="s-button-primary w-full">اطلب الآن</a>
+                </div>
+            </div>
+        </div>
+
+        {# Product 2 #}
+        <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+            <div class="relative">
+                <img src="{{ "images/product2.jpg" | asset }}" alt="مصباح فولاذ من الجيل الأخضر" class="w-full h-64 object-cover">
+            </div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold mb-2">مصباح فولاذ من الجيل الأخضر</h3>
+                <p class="text-gray-600 mb-4">قاتل للحشرات بالطاقة الشمسية</p>
+                <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-center">
+                        <i class="sicon-check-circle text-secondary mr-2"></i>
+                        <span>يعمل بالطاقة الشمسية</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="sicon-check-circle text-secondary mr-2"></i>
+                        <span>صديق للبيئة</span>
+                    </li>
+                </ul>
+                <div class="mt-6 text-center">
+                    <a href="#" class="s-button-primary w-full">اطلب الآن</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

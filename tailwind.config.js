@@ -31,6 +31,10 @@ module.exports = {
                 'auto-fill'  : 'repeat(auto-fill, 290px)',
             },
             colors             : {
+                'primary'      : '#0EA48A',
+                'primary-light': '#E7F6F4',
+                'secondary'    : '#74AB70',
+                'secondary-light': '#F1F6F0',
                 'dark'         : '#1D1F1F',
                 'darker'       : '#0E0F0F',
                 'danger'       : '#AE0A0A'
